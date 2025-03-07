@@ -38,4 +38,5 @@ gen.training(text)
 print(f"Input text: {text} \n")
 
 for i in range(5):
- print(f"Generated {i} text: {gen.generation(10)}")
+    generatedText = gen.generation(10)
+    print(f"Generated {i + 1}: {generatedText}")
