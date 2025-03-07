@@ -36,5 +36,6 @@ gen = MarkovChain()
 gen.training(text)
 
 print(f"Input text: {text} \n")
+
 for i in range(5):
  print(f"Generated {i} text: {gen.generation(10)}")
